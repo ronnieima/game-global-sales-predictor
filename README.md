@@ -28,7 +28,7 @@ This application will be standalone and written in the programming language Pyth
 
 <h2>Program walk-through:</h2>
 
-<p align="center">WIP</p>
+<p align="center"><img src="images/demo.gif"></p>
 
 <h3>Accuracy</h3>
 <hr>
