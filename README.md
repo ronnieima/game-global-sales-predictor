@@ -1,17 +1,7 @@
 <h1>Predict a Video Game’s Global Sales Using Machine Learning</h1>
 
-YouTube Demonstration (WIP)
-
 <h2>Description</h2>
-
-<h3>Problem Summary</h3>
-KaitoIma Gaming, a large video game company based in North America, has recently released a new game called "KAITO,” which has achieved exceptional success in the gaming industry. Because of this achievement, the organization is considering expanding its market presence to gamers all over the world. Although the company normally focuses on the NA market, the potential for growth through expansion of customers has piqued the interest of KaitoIma Gaming. To make an informed decision, the company proposes leveraging data from previous game releases to create an application to evaluate the feasibility and potential return on investment of this expansion. This tool will utilize machine learning and will meet the company’s needs by predicting the global sales of a game based on its features.
-
-<h3>Application Benefits</h3>
-This machine learning-driven solution will enhance decision making across the company, giving a rough estimate of which markets to target and which characteristics of a game will resonate with gamers on a worldwide scale. A semi-accurate prediction of a game’s global sales will help the company in curating what the best genre, platform, and publisher to use in order to maximize the customer outreach and profits. Additionally, this information will grant a competitive edge to the company as it aids in solidifying their position in the industry.
-
-<h3>Application Description</h3>
-This application will be standalone and written in the programming language Python because of its ease of compatibility with libraries that will be used for machine learning calculations and graphs. The development environment will be through a web-based environment called Jupyter Notebook, and that will be used for a distribution for scientific computing called Anaconda. Using existing historical data from existing games, the data will be used to train a Linear Regression machine learning model in order for the application to predict the number of global sales. Additionally, charts and graphs will be used to visualize the relationships between data variables.
+With this machine learning product, businesses can evaluate the feasibility of expanding their market presence and estimate the global sales potential of their products. By inputting relevant features and characteristics of their video game, the tool generates accurate predictions based on historical data, enabling companies to make data-driven decisions with confidence.
 
 <br />
 
@@ -32,17 +22,19 @@ This application will be standalone and written in the programming language Pyth
 
 <h3>Accuracy</h3>
 <hr>
-<p>A scatter plot was employed to visualize the accuracy of the predictive model. By plotting the predicted global sales and actual global sales, the model’s performance could be easily assessed and used to refine the model. The accuracy of the data can be measured by how close the dots are to the dotted red line. The model tends to stay consistently near the line, proving to be a reliable source of information.</p>
+<p>A scatter plot was utilized to visually represent the precision of the predictive model. By plotting the predicted global sales against the actual global sales, the efficacy of the model could be readily evaluated and subsequently refined. The proximity of the data points to the dotted red line serves as a measure of data accuracy. The model consistently demonstrates close alignment with the line, indicating its reliability as a dependable source of information.</p>
 <img src="images/accuracyGraph.png" alt="A plot diagram showing the application's accuracy.">
 
 <h3>Platform Distribution</h3>
 <hr>
-<p>We could understand the popularity of each platform and analyze its significance in the context of global sales by examining the pie graph. We were able to discover platforms with large user bases and potential strong market demand thanks to this knowledge. </p>
+<p>The significance of each platform in the context of global sales and its popularity were comprehensively analyzed by means of a pie chart. This visual representation enabled us to identify platforms with substantial user bases and potential high market demand. Through this analysis, valuable insights were obtained regarding the platforms that hold significant potential for business growth. </p>
 <img src="images/platformGlobalSales.png">
 
 <h3>Genre Distribution</h3>
 <hr>
-<p> A bar graph was also used to visualize the distribution of genres across the data set, and the distribution of global sales across different genres. The genres with the highest and lowest sales figures could potentially be identified by measuring the heights of the bars. Our decision-making process for selecting the most potential genres for global market expansion was driven by this analysis. It has shown that while some genres have a majority advantage over other games, they fall short in terms of global sales. One specific example is that while the adventure genre trumps the platform genre in terms of number of games, the platform genre performs significantly better when it comes to international sales.</p>
+<p> In order to analyze the distribution of genres and global sales within the dataset, a bar graph was employed. This visual representation allowed for the identification of genres with the highest and lowest sales figures by examining the heights of the bars. The insights gained from this analysis played a crucial role in guiding the decision-making process for selecting genres with the most potential for global market expansion.
+
+The analysis revealed that certain genres, despite having a larger number of games, did not perform as well in terms of global sales. For instance, while the adventure genre exhibited a higher number of games compared to the platform genre, the latter demonstrated significantly stronger performance in terms of international sales. These findings highlight the importance of considering global sales figures rather than solely relying on the popularity of genres when making strategic decisions for global market expansion.</p>
 <img src="images/genreDistribution.png">
 
 
